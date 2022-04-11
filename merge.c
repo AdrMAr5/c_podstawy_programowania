@@ -43,7 +43,7 @@ int main(){
     return 0;
 }
 
-// bubble sort for array
+// bubble sort for an array
 void sort(int *arr, int len){
     for(int i=0; i<len; i++){
         int change = 0;
