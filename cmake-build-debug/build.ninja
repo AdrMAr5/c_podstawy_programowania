@@ -315,6 +315,39 @@ build merge.exe: C_EXECUTABLE_LINKER__merge_Debug CMakeFiles/merge.dir/merge.c.o
   TARGET_IMPLIB = libmerge.dll.a
   TARGET_PDB = merge.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target print_array
+
+
+#############################################
+# Order-only phony target for print_array
+
+build cmake_object_order_depends_target_print_array: phony || CMakeFiles/print_array.dir
+
+build CMakeFiles/print_array.dir/print_array.c.obj: C_COMPILER__print_array_Debug C$:/Users/marko/CLionProjects/untitled/print_array.c || cmake_object_order_depends_target_print_array
+  DEP_FILE = CMakeFiles\print_array.dir\print_array.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\print_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\print_array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target print_array
+
+
+#############################################
+# Link the executable print_array.exe
+
+build print_array.exe: C_EXECUTABLE_LINKER__print_array_Debug CMakeFiles/print_array.dir/print_array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\print_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = print_array.exe
+  TARGET_IMPLIB = libprint_array.dll.a
+  TARGET_PDB = print_array.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -344,6 +377,8 @@ build najpierwsze: phony najpierwsze.exe
 
 build pointers: phony pointers.exe
 
+build print_array: phony print_array.exe
+
 build silnia: phony silnia.exe
 
 # =============================================================================
@@ -354,7 +389,7 @@ build silnia: phony silnia.exe
 #############################################
 # Folder: C:/Users/marko/CLionProjects/untitled/cmake-build-debug
 
-build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe doskonale.exe pointers.exe fibonacci.exe merge.exe
+build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe doskonale.exe pointers.exe fibonacci.exe merge.exe print_array.exe
 
 # =============================================================================
 # Built-in targets

@@ -7,4 +7,5 @@ C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/doskonale.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pointers.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/fibonacci.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/merge.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/print_array.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
