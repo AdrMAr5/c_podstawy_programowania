@@ -4,8 +4,10 @@ C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/najpierwsze.d
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/guesser.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/silnia.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/doskonale.dir
-C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pointers.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/spirala.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/fibonacci.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/merge.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pointers.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/print_array.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/silnia_duze.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

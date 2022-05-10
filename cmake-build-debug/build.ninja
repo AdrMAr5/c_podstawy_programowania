@@ -217,37 +217,37 @@ build doskonale.exe: C_EXECUTABLE_LINKER__doskonale_Debug CMakeFiles/doskonale.d
   TARGET_PDB = doskonale.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target pointers
+# Object build statements for EXECUTABLE target spirala
 
 
 #############################################
-# Order-only phony target for pointers
+# Order-only phony target for spirala
 
-build cmake_object_order_depends_target_pointers: phony || CMakeFiles/pointers.dir
+build cmake_object_order_depends_target_spirala: phony || CMakeFiles/spirala.dir
 
-build CMakeFiles/pointers.dir/pointers.c.obj: C_COMPILER__pointers_Debug C$:/Users/marko/CLionProjects/untitled/pointers.c || cmake_object_order_depends_target_pointers
-  DEP_FILE = CMakeFiles\pointers.dir\pointers.c.obj.d
+build CMakeFiles/spirala.dir/spirala.c.obj: C_COMPILER__spirala_Debug C$:/Users/marko/CLionProjects/untitled/spirala.c || cmake_object_order_depends_target_spirala
+  DEP_FILE = CMakeFiles\spirala.dir\spirala.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\pointers.dir
-  OBJECT_FILE_DIR = CMakeFiles\pointers.dir
+  OBJECT_DIR = CMakeFiles\spirala.dir
+  OBJECT_FILE_DIR = CMakeFiles\spirala.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target pointers
+# Link build statements for EXECUTABLE target spirala
 
 
 #############################################
-# Link the executable pointers.exe
+# Link the executable spirala.exe
 
-build pointers.exe: C_EXECUTABLE_LINKER__pointers_Debug CMakeFiles/pointers.dir/pointers.c.obj
+build spirala.exe: C_EXECUTABLE_LINKER__spirala_Debug CMakeFiles/spirala.dir/spirala.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\pointers.dir
+  OBJECT_DIR = CMakeFiles\spirala.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = pointers.exe
-  TARGET_IMPLIB = libpointers.dll.a
-  TARGET_PDB = pointers.exe.dbg
+  TARGET_FILE = spirala.exe
+  TARGET_IMPLIB = libspirala.dll.a
+  TARGET_PDB = spirala.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target fibonacci
@@ -316,6 +316,39 @@ build merge.exe: C_EXECUTABLE_LINKER__merge_Debug CMakeFiles/merge.dir/merge.c.o
   TARGET_PDB = merge.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target pointers
+
+
+#############################################
+# Order-only phony target for pointers
+
+build cmake_object_order_depends_target_pointers: phony || CMakeFiles/pointers.dir
+
+build CMakeFiles/pointers.dir/pointers.c.obj: C_COMPILER__pointers_Debug C$:/Users/marko/CLionProjects/untitled/pointers.c || cmake_object_order_depends_target_pointers
+  DEP_FILE = CMakeFiles\pointers.dir\pointers.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointers
+
+
+#############################################
+# Link the executable pointers.exe
+
+build pointers.exe: C_EXECUTABLE_LINKER__pointers_Debug CMakeFiles/pointers.dir/pointers.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointers.exe
+  TARGET_IMPLIB = libpointers.dll.a
+  TARGET_PDB = pointers.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target print_array
 
 
@@ -347,6 +380,39 @@ build print_array.exe: C_EXECUTABLE_LINKER__print_array_Debug CMakeFiles/print_a
   TARGET_FILE = print_array.exe
   TARGET_IMPLIB = libprint_array.dll.a
   TARGET_PDB = print_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target silnia_duze
+
+
+#############################################
+# Order-only phony target for silnia_duze
+
+build cmake_object_order_depends_target_silnia_duze: phony || CMakeFiles/silnia_duze.dir
+
+build CMakeFiles/silnia_duze.dir/silnia_duze.c.obj: C_COMPILER__silnia_duze_Debug C$:/Users/marko/CLionProjects/untitled/silnia_duze.c || cmake_object_order_depends_target_silnia_duze
+  DEP_FILE = CMakeFiles\silnia_duze.dir\silnia_duze.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\silnia_duze.dir
+  OBJECT_FILE_DIR = CMakeFiles\silnia_duze.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target silnia_duze
+
+
+#############################################
+# Link the executable silnia_duze.exe
+
+build silnia_duze.exe: C_EXECUTABLE_LINKER__silnia_duze_Debug CMakeFiles/silnia_duze.dir/silnia_duze.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\silnia_duze.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = silnia_duze.exe
+  TARGET_IMPLIB = libsilnia_duze.dll.a
+  TARGET_PDB = silnia_duze.exe.dbg
 
 
 #############################################
@@ -381,6 +447,10 @@ build print_array: phony print_array.exe
 
 build silnia: phony silnia.exe
 
+build silnia_duze: phony silnia_duze.exe
+
+build spirala: phony spirala.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -389,7 +459,7 @@ build silnia: phony silnia.exe
 #############################################
 # Folder: C:/Users/marko/CLionProjects/untitled/cmake-build-debug
 
-build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe doskonale.exe pointers.exe fibonacci.exe merge.exe print_array.exe
+build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe doskonale.exe spirala.exe fibonacci.exe merge.exe pointers.exe print_array.exe silnia_duze.exe
 
 # =============================================================================
 # Built-in targets

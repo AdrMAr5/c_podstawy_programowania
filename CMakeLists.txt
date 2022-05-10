@@ -10,5 +10,8 @@ add_executable(doskonale doskonale.c)
 add_executable(najpierwsze  najpierwsze.c)
 add_executable(fibonacci fibonacci.c)
 add_executable(merge merge.c)
+add_executable(spirala spirala.c)
 add_executable(pointers pointers.c)
 add_executable(print_array print_array.c)
+add_executable(silnia_duze silnia_duze.c)
+
