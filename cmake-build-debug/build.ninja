@@ -184,6 +184,39 @@ build silnia.exe: C_EXECUTABLE_LINKER__silnia_Debug CMakeFiles/silnia.dir/silnia
   TARGET_PDB = silnia.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target sasiedzi
+
+
+#############################################
+# Order-only phony target for sasiedzi
+
+build cmake_object_order_depends_target_sasiedzi: phony || CMakeFiles/sasiedzi.dir
+
+build CMakeFiles/sasiedzi.dir/sasiedzi.c.obj: C_COMPILER__sasiedzi_Debug C$:/Users/marko/CLionProjects/untitled/sasiedzi.c || cmake_object_order_depends_target_sasiedzi
+  DEP_FILE = CMakeFiles\sasiedzi.dir\sasiedzi.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\sasiedzi.dir
+  OBJECT_FILE_DIR = CMakeFiles\sasiedzi.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sasiedzi
+
+
+#############################################
+# Link the executable sasiedzi.exe
+
+build sasiedzi.exe: C_EXECUTABLE_LINKER__sasiedzi_Debug CMakeFiles/sasiedzi.dir/sasiedzi.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sasiedzi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sasiedzi.exe
+  TARGET_IMPLIB = libsasiedzi.dll.a
+  TARGET_PDB = sasiedzi.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target doskonale
 
 
@@ -445,6 +478,8 @@ build pointers: phony pointers.exe
 
 build print_array: phony print_array.exe
 
+build sasiedzi: phony sasiedzi.exe
+
 build silnia: phony silnia.exe
 
 build silnia_duze: phony silnia_duze.exe
@@ -459,7 +494,7 @@ build spirala: phony spirala.exe
 #############################################
 # Folder: C:/Users/marko/CLionProjects/untitled/cmake-build-debug
 
-build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe doskonale.exe spirala.exe fibonacci.exe merge.exe pointers.exe print_array.exe silnia_duze.exe
+build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe sasiedzi.exe doskonale.exe spirala.exe fibonacci.exe merge.exe pointers.exe print_array.exe silnia_duze.exe
 
 # =============================================================================
 # Built-in targets

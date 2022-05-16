@@ -14,4 +14,5 @@ add_executable(spirala spirala.c)
 add_executable(pointers pointers.c)
 add_executable(print_array print_array.c)
 add_executable(silnia_duze silnia_duze.c)
+add_executable(sasiedzi sasiedzi.c)
 

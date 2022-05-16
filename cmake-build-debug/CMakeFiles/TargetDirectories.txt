@@ -3,6 +3,7 @@ C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/main.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/najpierwsze.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/guesser.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/silnia.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/sasiedzi.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/doskonale.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/spirala.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/fibonacci.dir
