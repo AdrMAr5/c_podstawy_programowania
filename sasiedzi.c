@@ -4,8 +4,10 @@
 
 int sum_neighbors(int array[arr_size][arr_size], int x, int y);
 void fill_array(int *A, size_t width, size_t height);
+void print_2d_array(int *A, size_t size);
 
 int main(){
+    // exemplary array
 //    int arr[arr_size][arr_size] = {{1,0,0,0,1},
 //                     {1,1,1,0,0},
 //                     {1,0,0,0,0},
@@ -14,25 +16,14 @@ int main(){
     int arr[arr_size][arr_size];
     fill_array(arr, arr_size, arr_size);
     int new_arr[arr_size][arr_size];
-//    for(int i=0; i<arr_size; i++){
-//        for(int j=0; j<arr_size; j++){
-//            new_arr[i][j] = 0;
-//        }
-//    }
-    //sum_neighbors(arr);
+
     for(int y=0; y<arr_size; y++){
         for(int x=0; x<arr_size; x++){
             new_arr[y][x] = sum_neighbors(arr, x, y);
         }
     }
-    for(int i=0; i<arr_size; i++){
-        for(int j=0; j<arr_size; j++){
 
-            printf("%d ", new_arr[i][j]);
-        }
-        printf("\n");
-    }
-
+    print_2d_array(new_arr, arr_size);
     return 0;
 }
 
@@ -77,5 +68,15 @@ void fill_array(int *A, size_t width, size_t height)
             scanf("%d",&input);
             A[i * width + j] = input;
         }
+    }
+}
+
+// just prints 2d array
+void print_2d_array(int *A, size_t size){
+    for(int y=0; y<size; y++){
+        for(int x=0; x<size; x++){
+            printf("%d ", A[y * size + x]);
+        }
+        printf("\n");
     }
 }
