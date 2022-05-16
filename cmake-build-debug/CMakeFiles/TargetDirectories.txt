@@ -11,4 +11,5 @@ C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/merge.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pointers.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/print_array.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/silnia_duze.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/field.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

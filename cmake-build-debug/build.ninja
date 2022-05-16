@@ -447,6 +447,39 @@ build silnia_duze.exe: C_EXECUTABLE_LINKER__silnia_duze_Debug CMakeFiles/silnia_
   TARGET_IMPLIB = libsilnia_duze.dll.a
   TARGET_PDB = silnia_duze.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target field
+
+
+#############################################
+# Order-only phony target for field
+
+build cmake_object_order_depends_target_field: phony || CMakeFiles/field.dir
+
+build CMakeFiles/field.dir/field.c.obj: C_COMPILER__field_Debug C$:/Users/marko/CLionProjects/untitled/field.c || cmake_object_order_depends_target_field
+  DEP_FILE = CMakeFiles\field.dir\field.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\field.dir
+  OBJECT_FILE_DIR = CMakeFiles\field.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target field
+
+
+#############################################
+# Link the executable field.exe
+
+build field.exe: C_EXECUTABLE_LINKER__field_Debug CMakeFiles/field.dir/field.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\field.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = field.exe
+  TARGET_IMPLIB = libfield.dll.a
+  TARGET_PDB = field.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -465,6 +498,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build doskonale: phony doskonale.exe
 
 build fibonacci: phony fibonacci.exe
+
+build field: phony field.exe
 
 build guesser: phony guesser.exe
 
@@ -494,7 +529,7 @@ build spirala: phony spirala.exe
 #############################################
 # Folder: C:/Users/marko/CLionProjects/untitled/cmake-build-debug
 
-build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe sasiedzi.exe doskonale.exe spirala.exe fibonacci.exe merge.exe pointers.exe print_array.exe silnia_duze.exe
+build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe sasiedzi.exe doskonale.exe spirala.exe fibonacci.exe merge.exe pointers.exe print_array.exe silnia_duze.exe field.exe
 
 # =============================================================================
 # Built-in targets
