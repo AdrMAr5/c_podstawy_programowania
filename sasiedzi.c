@@ -6,13 +6,13 @@ int sum_neighbors(int array[arr_size][arr_size], int x, int y);
 void fill_array(int *A, size_t width, size_t height);
 
 int main(){
-    int arr[arr_size][arr_size] = {{1,0,0,0,1},
-                     {1,1,1,0,0},
-                     {1,0,0,0,0},
-                     {0,0,0,1,1},
-                     {0,1,0,0,0}};
-//    int arr[arr_size][arr_size];
-//    fill_array(arr, arr_size, arr_size);
+//    int arr[arr_size][arr_size] = {{1,0,0,0,1},
+//                     {1,1,1,0,0},
+//                     {1,0,0,0,0},
+//                     {0,0,0,1,1},
+//                     {0,1,0,0,0}};
+    int arr[arr_size][arr_size];
+    fill_array(arr, arr_size, arr_size);
     int new_arr[arr_size][arr_size];
 //    for(int i=0; i<arr_size; i++){
 //        for(int j=0; j<arr_size; j++){
