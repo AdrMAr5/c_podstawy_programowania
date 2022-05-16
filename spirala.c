@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-int count_digits();
+
+int count_digits(int n);
+void print_justified_2d_array(int *A, size_t N, int max_len);
 
 int main(){
     int N;
@@ -45,25 +47,9 @@ int main(){
     }
     // max length of number is length of biggest number in spiral
     // which is always N*N
-    int max_num_len;
-    max_num_len = count_digits(N*N);
+    int max_num_len = count_digits(N*N);
+    print_justified_2d_array(arr, N, max_num_len);
 
-    for(int line=0; line<N; line++){
-        for(int el=0; el<N; el++){
-            // printing number on specified index
-            printf("%d", arr[line][el]);
-            int cur_num_len = count_digits(arr[line][el]);
-
-            // filling the gaps with ' ' so that printed array
-            // is nicely justified
-            while(max_num_len - cur_num_len >= 0){
-                printf(" ");
-                cur_num_len++;
-            }
-
-        }
-        printf("\n");
-    }
 
     return 0;
 }
@@ -76,4 +62,23 @@ int count_digits(n){
         length++;
     }
     return length;
+}
+
+void print_justified_2d_array(int *A, size_t N, int max_len){
+    for(int line=0; line<N; line++){
+        for(int el=0; el<N; el++){
+            // printing number on specified index
+            printf("%d", A[line * N + el]);
+            int cur_num_len = count_digits(A[line * N + el]);
+
+            // filling the gaps with ' ' so that printed array
+            // is nicely justified
+            while(max_len - cur_num_len >= 0){
+                printf(" ");
+                cur_num_len++;
+            }
+
+        }
+        printf("\n");
+    }
 }
