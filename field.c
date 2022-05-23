@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdbool.h>
-#define arr_size 5
+#define arr_size 6
 
 void fill_array(int *A, size_t width, size_t height);
 bool is_field(int *A, size_t size, int max_x, int max_y, int start_x, int start_y);
 
 int main(){
     // exemplary array
-    int arr[arr_size][arr_size] = {{0,1,0,1,0},
-                                   {0,0,0,0,0},
-                                   {0,0,0,0,1},
-                                   {1,0,0,0,0},
-                                   {0,1,0,0,0}};
+    int arr[arr_size][arr_size] = {{0,0,0,0,0,0},
+                                   {0,0,0,0,0,0},
+                                   {0,0,0,0,0,0},
+                                   {0,0,0,0,0,0},
+                                   {0,0,0,0,0,0},
+                                   {0,0,0,0,0,1}};
 //    int arr[arr_size][arr_size];
 //    fill_array(arr, arr_size, arr_size);
 
