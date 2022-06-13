@@ -17,4 +17,6 @@ add_executable(silnia_duze silnia_duze.c)
 add_executable(sasiedzi sasiedzi.c)
 add_executable(field field.c)
 add_executable(square square.c)
+add_executable(vect vect_template.c)
+add_executable(triangles triangles.c)
 

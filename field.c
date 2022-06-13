@@ -11,7 +11,7 @@ int main(){
                                    {0,0,0,0,0,0},
                                    {0,0,0,0,0,0},
                                    {0,0,0,0,0,0},
-                                   {0,0,0,0,0,0},
+                                   {0,0,0,0,1,0},
                                    {0,0,0,0,0,1}};
 //    int arr[arr_size][arr_size];
 //    fill_array(arr, arr_size, arr_size);
@@ -24,10 +24,10 @@ int main(){
             }
             // determining the maximal range to look for field in
             int max_right = x, max_down = y;
-            while(arr[y][max_right] == 0 && max_right < arr_size){
+            while(max_right < arr_size && arr[y][max_right] == 0){
                 max_right++;
             }
-            while(arr[max_down][x] == 0 && max_down < arr_size){
+            while(max_down < arr_size && arr[max_down][x] == 0){
                 max_down++;
             }
             // looking for the biggest field

@@ -6,6 +6,7 @@ C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/silnia.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/sasiedzi.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/doskonale.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/spirala.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/vect.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/fibonacci.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/merge.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pointers.dir
@@ -13,4 +14,5 @@ C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/print_array.d
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/silnia_duze.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/field.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/square.dir
+C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/triangles.dir
 C:/Users/marko/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

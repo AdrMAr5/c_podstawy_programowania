@@ -283,6 +283,39 @@ build spirala.exe: C_EXECUTABLE_LINKER__spirala_Debug CMakeFiles/spirala.dir/spi
   TARGET_PDB = spirala.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target vect
+
+
+#############################################
+# Order-only phony target for vect
+
+build cmake_object_order_depends_target_vect: phony || CMakeFiles/vect.dir
+
+build CMakeFiles/vect.dir/vect_template.c.obj: C_COMPILER__vect_Debug C$:/Users/marko/CLionProjects/untitled/vect_template.c || cmake_object_order_depends_target_vect
+  DEP_FILE = CMakeFiles\vect.dir\vect_template.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\vect.dir
+  OBJECT_FILE_DIR = CMakeFiles\vect.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vect
+
+
+#############################################
+# Link the executable vect.exe
+
+build vect.exe: C_EXECUTABLE_LINKER__vect_Debug CMakeFiles/vect.dir/vect_template.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vect.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vect.exe
+  TARGET_IMPLIB = libvect.dll.a
+  TARGET_PDB = vect.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target fibonacci
 
 
@@ -513,6 +546,39 @@ build square.exe: C_EXECUTABLE_LINKER__square_Debug CMakeFiles/square.dir/square
   TARGET_IMPLIB = libsquare.dll.a
   TARGET_PDB = square.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target triangles
+
+
+#############################################
+# Order-only phony target for triangles
+
+build cmake_object_order_depends_target_triangles: phony || CMakeFiles/triangles.dir
+
+build CMakeFiles/triangles.dir/triangles.c.obj: C_COMPILER__triangles_Debug C$:/Users/marko/CLionProjects/untitled/triangles.c || cmake_object_order_depends_target_triangles
+  DEP_FILE = CMakeFiles\triangles.dir\triangles.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\triangles.dir
+  OBJECT_FILE_DIR = CMakeFiles\triangles.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangles
+
+
+#############################################
+# Link the executable triangles.exe
+
+build triangles.exe: C_EXECUTABLE_LINKER__triangles_Debug CMakeFiles/triangles.dir/triangles.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\triangles.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = triangles.exe
+  TARGET_IMPLIB = libtriangles.dll.a
+  TARGET_PDB = triangles.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -556,6 +622,10 @@ build spirala: phony spirala.exe
 
 build square: phony square.exe
 
+build triangles: phony triangles.exe
+
+build vect: phony vect.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -564,7 +634,7 @@ build square: phony square.exe
 #############################################
 # Folder: C:/Users/marko/CLionProjects/untitled/cmake-build-debug
 
-build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe sasiedzi.exe doskonale.exe spirala.exe fibonacci.exe merge.exe pointers.exe print_array.exe silnia_duze.exe field.exe square.exe
+build all: phony main.exe najpierwsze.exe guesser.exe silnia.exe sasiedzi.exe doskonale.exe spirala.exe vect.exe fibonacci.exe merge.exe pointers.exe print_array.exe silnia_duze.exe field.exe square.exe triangles.exe
 
 # =============================================================================
 # Built-in targets
